@@ -4,7 +4,8 @@
 ### Heading level 3
 #### Heading level 4
 ##### Heading level 5
-###### Heading level 6 (https://github.com/henry2craftman/henry.github.io/issues/1)
+###### [Heading level 6](https://github.com/henry2craftman/henry.github.io/issues/1)
+
 ![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.png "San Juan Mountains")
 
 | Syntax      | Description |
