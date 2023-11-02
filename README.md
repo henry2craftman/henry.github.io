@@ -12,4 +12,8 @@
 | Header      | Title       |
 | Paragraph   | Text        |
 
-==test==
+I need to highlight these ==very important words==.
+H~2~O
+X^2^
+http://www.example.com
+This **word** is bold. This <em>word</em> is italic.
