@@ -28,15 +28,18 @@
         </div>
         <div class="buttons">
             <button onclick="sendSMS()">SMS</button>
-            <a href="mailto:henry2craftman@gmail.com">
-                <button>email</button>
-            </a>
+            <button onclick="sendEmail()">email</button>
             <script>
                 function sendSMS() {
-                    var number = prompt("문자를 보낼 번호를 입력하세요:");
-                    if (number != null) {
-                        window.location.href = "sms:" + number;
-                    }
+                    //var number = prompt("문자를 보낼 번호를 입력하세요:");
+                    //if (number != null) {
+                    window.location.href = "sms:01084671924";
+                    /*}*/
+                }
+            </script>
+            <script>
+                function sendEmail() {
+                    window.location.href = "mailto:henry2craftman@gmail.com";
                 }
             </script>
         </div>
