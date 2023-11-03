@@ -27,12 +27,18 @@
             <a href="https://www.instagram.com/they_dreaming" class="insta"></i><img src="assets/images/instagram.png"></a>
         </div>
         <div class="buttons">
-            <a href="sms:01084671924">
-                <button type="button" onclick="location.href='sms:01084671924'">SMS</button>
-            </a>
+            <button onclick="sendSMS()">SMS</button>
             <a href="mailto:henry2craftman@gmail.com">
                 <button>email</button>
             </a>
+            <script>
+                function sendSMS() {
+                    var number = prompt("문자를 보낼 번호를 입력하세요:");
+                    if (number != null) {
+                        window.location.href = "sms:" + number;
+                    }
+                }
+            </script>
         </div>
         <div class="social-share">
             <div class="row">
