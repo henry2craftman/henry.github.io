@@ -84,7 +84,7 @@ body {
     object-fit: cover;
 }
 
-.wrapper .Minjeong {
+.wrapper .name {
     font-size: 23px;
     font-weight: 500;
     color: #31344b;
@@ -128,6 +128,31 @@ body {
 .buttons button:hover:before {
     z-index: -1;
     border-radius: 5px;
+}
+
+.social-icons a i {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+}
+
+.social-icons a.fb i {
+    color: #4267B2;
+}
+
+.social-icons a.twitter i {
+    color: #1DA1F2;
+}
+
+.social-icons a.insta i {
+    color: #E1306C;
+}
+
+.social-icons a.yt i {
+    color: #ff0000;
 }
 
 .wrapper .buttons {
