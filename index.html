@@ -31,10 +31,10 @@
             <button onclick="sendEmail()">email</button>
             <script>
                 function sendSMS() {
-                    //var number = prompt("문자를 보낼 번호를 입력하세요:");
-                    //if (number != null) {
-                    window.location.href = "sms:01084671924";
-                    /*}*/
+                    var number = prompt("문자를 보낼 번호를 입력하세요:");
+                    if (number != null) {
+                        window.location.href = "sms:" + number;
+                    }
                 }
             </script>
             <script>
