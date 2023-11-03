@@ -97,6 +97,12 @@ body {
     font-size: 16px;
 }
 
+.wrapper .about {
+    color: #44476a;
+    font-weight: 400;
+    font-size: 11px;
+}
+
 .wrapper .social-icons {
     margin: 15px 0 25px 0;
 }
