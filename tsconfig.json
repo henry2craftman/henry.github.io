@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"experimentalDecorators": true,
     "useDefineForClassFields": false,
-    "baseUrl": "henry.github.io/src",
+    "baseUrl": "src",
 		// Add type definitions for our Vite runtime.
 	  "types": ["astro/client"],
     "paths": {
